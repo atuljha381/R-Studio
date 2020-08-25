@@ -12,7 +12,5 @@ mode_res <- function(v){
 var3 <- c(2,1,2,3,1,2,3,4,1,5,5,3,2,3)
 
 cat("\nMean is: ",mean_res)
-
 cat(" \nMedian is: ",med_res)
-
-cat(" \nMode is: ", mode_res(var3))
+cat(" \nMode is: ",mode_res(var3))
