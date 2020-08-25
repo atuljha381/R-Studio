@@ -7,6 +7,13 @@ recurse.fibonacci<-function(n){
   }
 }
 
+recurse.factorial <- function(x){
+  if(n<=1){
+    return(x)
+  }else{
+    return(x * recurse.factorial(x-1))
+  }
+}
 
 n = 5
 
@@ -18,3 +25,5 @@ if(n <= 0) {
     print(recurse.fibonacci(i))
   }
 }
+
+print(recurse.factorial(n))
